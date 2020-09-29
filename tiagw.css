@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(16.66666666666667%, red), color-stop(16.66666666666667%, orange), color-stop(33.33333333333334%, orange), color-stop(33.33333333333334%, yellow), color-stop(50%, yellow), color-stop(50%, green), color-stop(66.66666666666667%, green), color-stop(66.66666666666667%, blue), color-stop(83.33333333333333%, blue), color-stop(83.33333333333333%, purple), to(purple));
+  background: linear-gradient(top, red 0%, red 16.66666666666667%, orange 16.66666666666667%, orange 33.33333333333334%, yellow 33.33333333333334%, yellow 50%, green 50%, green 66.66666666666667%, blue 66.66666666666667%, blue 83.33333333333333%, purple 83.33333333333333%, purple 100%);
+}
